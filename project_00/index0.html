@@ -8,21 +8,30 @@
     <style>
 
        body{margin:0;}
-       div{max-width:60ch; font-size:clamp(14px,2vw,20px); margin:0 auto;
+       div.richtext{max-width:60ch; font-size:clamp(14px,2vw,20px); margin:0 auto;
          padding:0 40px;}
-       p{font-size:0.8em; line-height:1.4em; margin-bottom:1.8em;}
-       h1{font-size:3em; line-height:1.4em; margin-bottom:1.8em;}
-       h2{font-size:1.8em; line-height:1.4em; margin-bottom:1.8em;}
-       ol{list-style-type:integer; margin-left:1em;}
-       li{font-size:0.8em; line-height:1.4em; margin-bottom:1.8em;}
+       div.richtext p{font-size:0.8em; line-height:1.4em; margin-bottom:1.8em;}
+       div.richtext h1{font-size:3em; line-height:1.4em; margin-bottom:1.8em;}
+       div.richtext h2{font-size:1.8em; line-height:1.4em; margin-bottom:1.8em;}
+       div.richtext ol{list-style-type:integer; margin-left:1em;}
+       div.richtext li{font-size:0.8em; line-height:1.4em; margin-bottom:1.8em;}
+
+       div.richtext img{width:100%;}
 
 
+      img.hero{width:100%; height:100vh;
+        object-fit:cover; object-position:75% 50%;}
 
     </style>
   </head>
   <body>
 
-  <div>
+    <img class="hero"  src="res/hero.jpg" alt="Nine circles of the hell">
+
+  <div class="richtext">
+
+    <img src="res/hell.jpg" alt="Nine circles of the hell">
+
     <h1>One pager design</h1>
 
     <p>In our first exercise, we will design a so called one pager site. One pagers are websites from a single page. Most of them has a single purpose: to make people to do something. It is Call to action.</p>
